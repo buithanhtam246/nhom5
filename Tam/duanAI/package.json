@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "tailwindcss": "^4.1.17",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "dotenv": "^16.3.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start:static": "npx live-server --port=5500 --open=home/home.html",
+    "build:css": "npx tailwindcss -i ./src/styles.css -o ./dist/tailwind.css --minify",
+    "watch:css": "npx tailwindcss -i ./src/styles.css -o ./dist/tailwind.css --watch"
+  }
+}

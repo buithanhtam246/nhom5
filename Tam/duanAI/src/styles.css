@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add global custom CSS here. The small glass styles remain in the HTML file, but
+   adding them here keeps Tailwind-related rules separate if you prefer. */
